@@ -1,0 +1,9 @@
+-> run command:
+ $make
+-> now some modules created in source folder check there is no error in module and if device is ready for use or not:
+ $insmod reverse.ko
+if this command gives no error then device is created successfuly and ready to use.
+
+Now compile application code:
+ $gcc application.c
+ $./a.out "Stinng here in quotes"
